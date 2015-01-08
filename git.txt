@@ -1,3 +1,9 @@
+https://github.com/
+
+username:twgxkingkong, pwd:git1980ok , email: 183630343@qq.com
+
+repository: twgxkingkong/GitTest
+
 msysgit是Windows版的Git，从http://msysgit.github.io/下载，然后按默认选项安装即可。
 
 $ git config --global user.name "Your Name"
@@ -13,7 +19,17 @@ $ git config --global user.email "Jinliang.kong@camstar.com"
 
 注意git config命令的--global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
 
+创建SSH Key:
+$ ssh-keygen -t rsa -C "youremail@example.com"
 
-add comments 1
 
-add comments 2
+$ ssh-keygen -t rsa -C "Jinliang.kong@camstar.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/mocca/.ssh/id_rsa):
+Created directory '/c/Users/mocca/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/mocca/.ssh/id_rsa.
+Your public key has been saved in /c/Users/mocca/.ssh/id_rsa.pub.
+The key fingerprint is:
+5b:5a:2e:61:ac:44:b7:60:fd:3b:30:19:7f:27:99:ac Jinliang.kong@camstar.com
